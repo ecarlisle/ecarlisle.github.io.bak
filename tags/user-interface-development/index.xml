@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>User Interface Development on Eric Carlisle : UI Developer, UX Designer</title>
+    <link>http://www.ericcarlisle.com/tags/user-interface-development/</link>
+    <description>Recent content in User Interface Development on Eric Carlisle : UI Developer, UX Designer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>eric@ericcarlisle.com (Eric Carlisle)</managingEditor>
+    <webMaster>eric@ericcarlisle.com (Eric Carlisle)</webMaster>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Mon, 25 Sep 2017 06:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="http://www.ericcarlisle.com/tags/user-interface-development/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Contact Me - Eric Carlisle : UI Developer, UX Designer</title>
+      <link>http://www.ericcarlisle.com/contact/</link>
+      <pubDate>Mon, 25 Sep 2017 06:00:00 +0000</pubDate>
+      <author>eric@ericcarlisle.com (Eric Carlisle)</author>
+      <guid>http://www.ericcarlisle.com/contact/</guid>
+      <description> Contact Me   </description>
+    </item>
+    
+    <item>
+      <title>Eric Carlisle : UI Developer, UX Designer</title>
+      <link>http://www.ericcarlisle.com/about/</link>
+      <pubDate>Mon, 25 Sep 2017 06:00:00 +0000</pubDate>
+      <author>eric@ericcarlisle.com (Eric Carlisle)</author>
+      <guid>http://www.ericcarlisle.com/about/</guid>
+      <description>About Me  As a UI Developer and UX Designer, my passion is in building the user-facing web and the experiences that make it engaging, compelling, and useful. My core approach is to Keep It Stunningly Simple, a practice encouraging creative innovation while maintaining pragmatic focus. Via this careful balance, outstanding solutions can be created with highest probability of project success.  Over the past 20 years I&#39;ve worked in many aspects of web production.</description>
+    </item>
+    
+    <item>
+      <title>The New UI : Staying Strong with Flexbox, SASS, and Mustache.JS</title>
+      <link>http://www.ericcarlisle.com/presentations/2014/09/13/staying-strong-flexbox-sass-mustachejs/</link>
+      <pubDate>Sat, 13 Sep 2014 00:06:00 +0000</pubDate>
+      <author>eric@ericcarlisle.com (Eric Carlisle)</author>
+      <guid>http://www.ericcarlisle.com/presentations/2014/09/13/staying-strong-flexbox-sass-mustachejs/</guid>
+      <description>&lt;p&gt;
+    The last few years have seen spectacular, sweeping changes in the paradigms of front-end website production. New technology standards, frameworks innovations, design trends, and the always-growing mobile market have totally reshaped approaches to building the presentation layer.
+&lt;/p&gt;
+
+
+&lt;p&gt;
+    This hands-on lab will investigate a powerful medley of front-end production frameworks, standards, and tools.
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

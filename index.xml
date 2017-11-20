@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eric Carlisle : UI Developer, UX Designer</title>
+    <link>http://www.ericcarlisle.com/</link>
+    <description>Recent content on Eric Carlisle : UI Developer, UX Designer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>eric@ericcarlisle.com (Eric Carlisle)</managingEditor>
+    <webMaster>eric@ericcarlisle.com (Eric Carlisle)</webMaster>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Wed, 15 Nov 2017 00:09:00 +0000</lastBuildDate>
+    
+        <atom:link href="http://www.ericcarlisle.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>S E Oh Myyy! : Using Structured, Semantic Data for Stellar Content</title>
+      <link>http://www.ericcarlisle.com/presentations/2017/11/15/se-oh-myyy-structured-data-stellar-content/</link>
+      <pubDate>Wed, 15 Nov 2017 00:09:00 +0000</pubDate>
+      <author>eric@ericcarlisle.com (Eric Carlisle)</author>
+      <guid>http://www.ericcarlisle.com/presentations/2017/11/15/se-oh-myyy-structured-data-stellar-content/</guid>
+      <description>Like all things Web, SEO is a wild ride. Ranking criteria changes rapidly as do strategies for optimizing content visibility. As challenging as this is, the goal of both search and content providers is the same: to deliver quality content to Web users. Schema.org is a collaborative effort founded by Google, Microsoft, Yahoo and Yandex. Its purpose is to create, maintain, and promote structured data schemas for embedding a voculary of metadata into Web markup.</description>
+    </item>
+    
+    <item>
+      <title>Flexible, Powerful Static Website Creation with Hugo</title>
+      <link>http://www.ericcarlisle.com/presentations/2016/06/19/static-site-generation-hugo/</link>
+      <pubDate>Sun, 19 Jun 2016 00:06:00 +0000</pubDate>
+      <author>eric@ericcarlisle.com (Eric Carlisle)</author>
+      <guid>http://www.ericcarlisle.com/presentations/2016/06/19/static-site-generation-hugo/</guid>
+      <description>The static website has been reborn! Using a static site generator can simplify website production, optimize performance, and improve security. By streamlining the production process, static site generators can make more time for creating content instead of maintaining the plumbing that delivers it.  Written in Go, the Hugo static site generator (SSG) is very fast and built for performance. What also makes it stand out is an extremely powerful, flexible content model.</description>
+    </item>
+    
+    <item>
+      <title>Considering Static Site Generation with HUGO at dev.Objective()</title>
+      <link>http://www.ericcarlisle.com/posts/2016/06/18/static-sites-with-hugo-at-devobjective/</link>
+      <pubDate>Sat, 18 Jun 2016 00:06:00 +0000</pubDate>
+      <author>eric@ericcarlisle.com (Eric Carlisle)</author>
+      <guid>http://www.ericcarlisle.com/posts/2016/06/18/static-sites-with-hugo-at-devobjective/</guid>
+      <description>&lt;p&gt;I recently attended this year&amp;rsquo;s &lt;a href=&#34;http://www.devobjective.com&#34;&gt;dev.Objective()&lt;/a&gt; web conference and was given an opportunity to present &lt;strong&gt;Static Site Generation with HUGO&lt;/strong&gt;. Dev.Objective() always brings in heavy-duty brain power so I was very excited to geek out, get questions and in this case, &lt;strong&gt;challenge comfort zones&lt;/strong&gt;.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>A Tale of Two Characters - My Code Indentation Autobiography</title>
+      <link>http://www.ericcarlisle.com/posts/2016/06/06/my-code-indentation-autobiography/</link>
+      <pubDate>Mon, 06 Jun 2016 09:00:00 +0000</pubDate>
+      <author>eric@ericcarlisle.com (Eric Carlisle)</author>
+      <guid>http://www.ericcarlisle.com/posts/2016/06/06/my-code-indentation-autobiography/</guid>
+      <description>&lt;p&gt;The type and number of characters we use for code indention have and probably will always be a source of contention for programmers. Should we use tabs or spaces and how many of either? Some will consider this a tired argument, others find it comical, and some have very strong opinions on what&amp;rsquo;s the right way to indent. These are all fair. What interests me is how different indention stylistics are more than mere preferences or opinions. They can make that person more efficient and less distracted. It&amp;rsquo;s both a quandary of both Computer Science and Human Factors.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Celebrating Star Wars day with Raspberry Pi</title>
+      <link>http://www.ericcarlisle.com/posts/2016/05/04/star-wars-day-raspberry-pi/</link>
+      <pubDate>Wed, 04 May 2016 09:00:00 +0000</pubDate>
+      <author>eric@ericcarlisle.com (Eric Carlisle)</author>
+      <guid>http://www.ericcarlisle.com/posts/2016/05/04/star-wars-day-raspberry-pi/</guid>
+      <description>&lt;p&gt;Happy Star Wars day! Let&amp;rsquo;s have some fandom fun! :-)&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s start with one of &lt;a href=&#34;https://www.raspberrypi.org/&#34;&gt;Raspberry Pi&amp;rsquo;s&lt;/a&gt; newest innovations, &lt;a href=&#34;https://www.raspberrypi.org/products/pi-zero/&#34;&gt;The Raspberry Pi Zero&lt;/a&gt;. Next let&amp;rsquo;s encase it with a few hundred Nanoblocks in a shape befitting said Star Wars fandom. Geekery ensues!
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ridiculously Easy Layouts with Flexbox</title>
+      <link>http://www.ericcarlisle.com/presentations/2016/03/10/ridiculously-easy-layouts-flexbox/</link>
+      <pubDate>Thu, 10 Mar 2016 00:06:00 +0000</pubDate>
+      <author>eric@ericcarlisle.com (Eric Carlisle)</author>
+      <guid>http://www.ericcarlisle.com/presentations/2016/03/10/ridiculously-easy-layouts-flexbox/</guid>
+      <description>&lt;p&gt;
+    Ready to have your mind blown? Meet Flexbox! The Flexbox (or Flexible Box) Layout Model is a set of CSS attributes that will likely change the way you think about UI layouts. Flexbox uses a dual-axis, container/item layout model allowing for powerful approaches to element space distribution, alignment, and sizing. This can be a tremendous boon for web projects with dynamic data and design flux. It may also tremendously simplify responsive layouts that are dependent on commonly complicated grid models.
+&lt;/p&gt;
+
+&lt;p&gt;
+    This presentation will introduce the mechanics of the Flexible Box Model and demonstrate its capability for simplifying markup and styling. Comparisons will be made to other layout paradigms to illustrate strengths of the model.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Maintaining Jekyll Performance When Using Package Managers</title>
+      <link>http://www.ericcarlisle.com/posts/2015/12/29/maintain-jekyll-performance-package-managers/</link>
+      <pubDate>Tue, 29 Dec 2015 13:21:00 +0000</pubDate>
+      <author>eric@ericcarlisle.com (Eric Carlisle)</author>
+      <guid>http://www.ericcarlisle.com/posts/2015/12/29/maintain-jekyll-performance-package-managers/</guid>
+      <description>&lt;p&gt;When getting started with a &lt;a href=&#34;http://jekyllrb.com/docs/structure/&#34;&gt;Jekyll&lt;/a&gt; site, it&amp;rsquo;s very important to learn about its &lt;a href=&#34;ahttp://jekyllrb.com/docs/structure&#34;&gt;directory structure&lt;/a&gt; and how that works with the Jekyll generator. Most of this is very intuitative and you&amp;rsquo;ll be quickly learning where to place templates, partials, posts, and general content pages.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Optimizing Jekyll Templates with Liquid variables for DRY, Readable Markup</title>
+      <link>http://www.ericcarlisle.com/posts/2015/12/17/jekyll-liquid-templates-for-dry-markup/</link>
+      <pubDate>Thu, 17 Dec 2015 00:09:00 +0000</pubDate>
+      <author>eric@ericcarlisle.com (Eric Carlisle)</author>
+      <guid>http://www.ericcarlisle.com/posts/2015/12/17/jekyll-liquid-templates-for-dry-markup/</guid>
+      <description>&lt;p&gt;If you&amp;rsquo;ve yet to check out &lt;a href=&#34;https://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt;, I&amp;rsquo;d strongly suggest doing so. It&amp;rsquo;s a very powerful static site generator and a compelling tool for re-discovering strengths of a static website. I use it for &lt;a href=&#34;https://github.com/ecarlisle/ecarlisle.github.io&#34;&gt;this website&lt;/a&gt;. It&amp;rsquo;s a huge time saver for me, allowing me to devote more time to content creation. Its integraton with &lt;a href=&#34;https://help.github.com/articles/using-jekyll-with-pages/&#34;&gt;Github Pages&lt;/a&gt; also makes content publication a snap.&lt;/p&gt;
+
+&lt;p&gt;For those already already working with Jekyll, you&amp;rsquo;ve probably been working with the &lt;a href=&#34;http://liquidmarkup.org/&#34;&gt;Liquid Ruby library&lt;/a&gt; for optimizing templates. Liquid is a quick learn and great tool for Jekyll templating. I recently used with Liquid to customize Jekyll&amp;rsquo;s &lt;a href=&#34;https://github.com/jekyll/jekyll/blob/master/lib/site_template/_includes/head.html&#34;&gt;head.html include&lt;/a&gt; to optimize social channel metatags.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Bower Power : Supercharging Front-End Manageability</title>
+      <link>http://www.ericcarlisle.com/presentations/2015/10/27/bower-power-supercharging-front-end-manageability/</link>
+      <pubDate>Tue, 27 Oct 2015 00:06:00 +0000</pubDate>
+      <author>eric@ericcarlisle.com (Eric Carlisle)</author>
+      <guid>http://www.ericcarlisle.com/presentations/2015/10/27/bower-power-supercharging-front-end-manageability/</guid>
+      <description>This session will introduce Bower, a powerful package manager for libraries, frameworks, and all things front-end. We will cover basic Bower usage, integration into Grunt &amp;amp; Gulp build processes, tooling, and registering custom packages to be used by anyone.
+After this session, attendees will be able to:
+ Use Bower to manage libraries, frameworks, and other front-end assets. Integrate Bower into Grunt or Gulp build processes. Optimize Bower power with tooling like the bower-installer.</description>
+    </item>
+    
+    <item>
+      <title>Responsive Design - Planning, Execution, Management with Bootstrap 3</title>
+      <link>http://www.ericcarlisle.com/presentations/2015/03/05/responsive-design-wth-bootstrap-3/</link>
+      <pubDate>Thu, 05 Mar 2015 00:06:00 +0000</pubDate>
+      <author>eric@ericcarlisle.com (Eric Carlisle)</author>
+      <guid>http://www.ericcarlisle.com/presentations/2015/03/05/responsive-design-wth-bootstrap-3/</guid>
+      <description>&lt;p&gt;In only the last few years, Responsive Design patterns and paradigms have brought forth spectacular, sweeping changes in UI web production. The demands for device-compliance as well as the always-growing mobile market have made Responsive Design a necessity for many websites and web applications. While taking the Responsive approach may offer incredible opportunities, it also carries a gamut of challenges.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Dazzling Data Depiction with D3.js</title>
+      <link>http://www.ericcarlisle.com/presentations/2014/11/17/dazzing-data-depiction-with-d3js/</link>
+      <pubDate>Mon, 17 Nov 2014 00:06:00 +0000</pubDate>
+      <author>eric@ericcarlisle.com (Eric Carlisle)</author>
+      <guid>http://www.ericcarlisle.com/presentations/2014/11/17/dazzing-data-depiction-with-d3js/</guid>
+      <description>&lt;p&gt;Creating data visualizations for a web has historically been a daunting task. Due to a lacking standards of browser-supported visualization, often the most approachable solutions would involve proprietary platforms, 3rd-party services, browser plugins, or just static imagery.&lt;/p&gt;
+
+
+&lt;p&gt;The D3.js JavaScript library uses HTML, CSS, and SVG for binding data to web documents. This standards-based approach allows visualizations to be created across browsers without the need for 3rd-party tooling.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>The New UI : Staying Strong with Flexbox, SASS, and Mustache.JS</title>
+      <link>http://www.ericcarlisle.com/presentations/2014/09/13/staying-strong-flexbox-sass-mustachejs/</link>
+      <pubDate>Sat, 13 Sep 2014 00:06:00 +0000</pubDate>
+      <author>eric@ericcarlisle.com (Eric Carlisle)</author>
+      <guid>http://www.ericcarlisle.com/presentations/2014/09/13/staying-strong-flexbox-sass-mustachejs/</guid>
+      <description>&lt;p&gt;
+    The last few years have seen spectacular, sweeping changes in the paradigms of front-end website production. New technology standards, frameworks innovations, design trends, and the always-growing mobile market have totally reshaped approaches to building the presentation layer.
+&lt;/p&gt;
+
+
+&lt;p&gt;
+    This hands-on lab will investigate a powerful medley of front-end production frameworks, standards, and tools.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>The Yin and Yang of Responsive Workflow</title>
+      <link>http://www.ericcarlisle.com/presentations/2013/06/19/yin-yang-responsive-workflow/</link>
+      <pubDate>Wed, 19 Jun 2013 00:06:00 +0000</pubDate>
+      <author>eric@ericcarlisle.com (Eric Carlisle)</author>
+      <guid>http://www.ericcarlisle.com/presentations/2013/06/19/yin-yang-responsive-workflow/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Responsive Design&lt;/strong&gt; has revolutionized the way we create websites, yet there is a strong tendency to still use traditional workflow methodologies. Such workflows can make a project far less efficient while adding a gamut of risks. This session will explore this dilemma, propose alternate workflows for responsive website projects, and offer respective approaches and tooling options for both designers and developers.
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

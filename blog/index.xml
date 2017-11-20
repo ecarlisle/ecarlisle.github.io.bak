@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Eric Carlisle : UI Developer, UX Designer</title>
+    <link>http://www.ericcarlisle.com/blog/</link>
+    <description>Recent content in Blogs on Eric Carlisle : UI Developer, UX Designer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>eric@ericcarlisle.com (Eric Carlisle)</managingEditor>
+    <webMaster>eric@ericcarlisle.com (Eric Carlisle)</webMaster>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Sat, 18 Jun 2016 00:06:00 +0000</lastBuildDate>
+    
+        <atom:link href="http://www.ericcarlisle.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Considering Static Site Generation with HUGO at dev.Objective()</title>
+      <link>http://www.ericcarlisle.com/posts/2016/06/18/static-sites-with-hugo-at-devobjective/</link>
+      <pubDate>Sat, 18 Jun 2016 00:06:00 +0000</pubDate>
+      <author>eric@ericcarlisle.com (Eric Carlisle)</author>
+      <guid>http://www.ericcarlisle.com/posts/2016/06/18/static-sites-with-hugo-at-devobjective/</guid>
+      <description>&lt;p&gt;I recently attended this year&amp;rsquo;s &lt;a href=&#34;http://www.devobjective.com&#34;&gt;dev.Objective()&lt;/a&gt; web conference and was given an opportunity to present &lt;strong&gt;Static Site Generation with HUGO&lt;/strong&gt;. Dev.Objective() always brings in heavy-duty brain power so I was very excited to geek out, get questions and in this case, &lt;strong&gt;challenge comfort zones&lt;/strong&gt;.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>A Tale of Two Characters - My Code Indentation Autobiography</title>
+      <link>http://www.ericcarlisle.com/posts/2016/06/06/my-code-indentation-autobiography/</link>
+      <pubDate>Mon, 06 Jun 2016 09:00:00 +0000</pubDate>
+      <author>eric@ericcarlisle.com (Eric Carlisle)</author>
+      <guid>http://www.ericcarlisle.com/posts/2016/06/06/my-code-indentation-autobiography/</guid>
+      <description>&lt;p&gt;The type and number of characters we use for code indention have and probably will always be a source of contention for programmers. Should we use tabs or spaces and how many of either? Some will consider this a tired argument, others find it comical, and some have very strong opinions on what&amp;rsquo;s the right way to indent. These are all fair. What interests me is how different indention stylistics are more than mere preferences or opinions. They can make that person more efficient and less distracted. It&amp;rsquo;s both a quandary of both Computer Science and Human Factors.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Celebrating Star Wars day with Raspberry Pi</title>
+      <link>http://www.ericcarlisle.com/posts/2016/05/04/star-wars-day-raspberry-pi/</link>
+      <pubDate>Wed, 04 May 2016 09:00:00 +0000</pubDate>
+      <author>eric@ericcarlisle.com (Eric Carlisle)</author>
+      <guid>http://www.ericcarlisle.com/posts/2016/05/04/star-wars-day-raspberry-pi/</guid>
+      <description>&lt;p&gt;Happy Star Wars day! Let&amp;rsquo;s have some fandom fun! :-)&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s start with one of &lt;a href=&#34;https://www.raspberrypi.org/&#34;&gt;Raspberry Pi&amp;rsquo;s&lt;/a&gt; newest innovations, &lt;a href=&#34;https://www.raspberrypi.org/products/pi-zero/&#34;&gt;The Raspberry Pi Zero&lt;/a&gt;. Next let&amp;rsquo;s encase it with a few hundred Nanoblocks in a shape befitting said Star Wars fandom. Geekery ensues!
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Maintaining Jekyll Performance When Using Package Managers</title>
+      <link>http://www.ericcarlisle.com/posts/2015/12/29/maintain-jekyll-performance-package-managers/</link>
+      <pubDate>Tue, 29 Dec 2015 13:21:00 +0000</pubDate>
+      <author>eric@ericcarlisle.com (Eric Carlisle)</author>
+      <guid>http://www.ericcarlisle.com/posts/2015/12/29/maintain-jekyll-performance-package-managers/</guid>
+      <description>&lt;p&gt;When getting started with a &lt;a href=&#34;http://jekyllrb.com/docs/structure/&#34;&gt;Jekyll&lt;/a&gt; site, it&amp;rsquo;s very important to learn about its &lt;a href=&#34;ahttp://jekyllrb.com/docs/structure&#34;&gt;directory structure&lt;/a&gt; and how that works with the Jekyll generator. Most of this is very intuitative and you&amp;rsquo;ll be quickly learning where to place templates, partials, posts, and general content pages.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Optimizing Jekyll Templates with Liquid variables for DRY, Readable Markup</title>
+      <link>http://www.ericcarlisle.com/posts/2015/12/17/jekyll-liquid-templates-for-dry-markup/</link>
+      <pubDate>Thu, 17 Dec 2015 00:09:00 +0000</pubDate>
+      <author>eric@ericcarlisle.com (Eric Carlisle)</author>
+      <guid>http://www.ericcarlisle.com/posts/2015/12/17/jekyll-liquid-templates-for-dry-markup/</guid>
+      <description>&lt;p&gt;If you&amp;rsquo;ve yet to check out &lt;a href=&#34;https://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt;, I&amp;rsquo;d strongly suggest doing so. It&amp;rsquo;s a very powerful static site generator and a compelling tool for re-discovering strengths of a static website. I use it for &lt;a href=&#34;https://github.com/ecarlisle/ecarlisle.github.io&#34;&gt;this website&lt;/a&gt;. It&amp;rsquo;s a huge time saver for me, allowing me to devote more time to content creation. Its integraton with &lt;a href=&#34;https://help.github.com/articles/using-jekyll-with-pages/&#34;&gt;Github Pages&lt;/a&gt; also makes content publication a snap.&lt;/p&gt;
+
+&lt;p&gt;For those already already working with Jekyll, you&amp;rsquo;ve probably been working with the &lt;a href=&#34;http://liquidmarkup.org/&#34;&gt;Liquid Ruby library&lt;/a&gt; for optimizing templates. Liquid is a quick learn and great tool for Jekyll templating. I recently used with Liquid to customize Jekyll&amp;rsquo;s &lt;a href=&#34;https://github.com/jekyll/jekyll/blob/master/lib/site_template/_includes/head.html&#34;&gt;head.html include&lt;/a&gt; to optimize social channel metatags.
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

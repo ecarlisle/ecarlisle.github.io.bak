@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on Eric Carlisle : UI Developer, UX Designer</title>
+    <link>http://www.ericcarlisle.com/tags/hugo/</link>
+    <description>Recent content in Hugo on Eric Carlisle : UI Developer, UX Designer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>eric@ericcarlisle.com (Eric Carlisle)</managingEditor>
+    <webMaster>eric@ericcarlisle.com (Eric Carlisle)</webMaster>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Sun, 19 Jun 2016 00:06:00 +0000</lastBuildDate>
+    
+        <atom:link href="http://www.ericcarlisle.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Flexible, Powerful Static Website Creation with Hugo</title>
+      <link>http://www.ericcarlisle.com/presentations/2016/06/19/static-site-generation-hugo/</link>
+      <pubDate>Sun, 19 Jun 2016 00:06:00 +0000</pubDate>
+      <author>eric@ericcarlisle.com (Eric Carlisle)</author>
+      <guid>http://www.ericcarlisle.com/presentations/2016/06/19/static-site-generation-hugo/</guid>
+      <description>The static website has been reborn! Using a static site generator can simplify website production, optimize performance, and improve security. By streamlining the production process, static site generators can make more time for creating content instead of maintaining the plumbing that delivers it.  Written in Go, the Hugo static site generator (SSG) is very fast and built for performance. What also makes it stand out is an extremely powerful, flexible content model.</description>
+    </item>
+    
+    <item>
+      <title>Considering Static Site Generation with HUGO at dev.Objective()</title>
+      <link>http://www.ericcarlisle.com/posts/2016/06/18/static-sites-with-hugo-at-devobjective/</link>
+      <pubDate>Sat, 18 Jun 2016 00:06:00 +0000</pubDate>
+      <author>eric@ericcarlisle.com (Eric Carlisle)</author>
+      <guid>http://www.ericcarlisle.com/posts/2016/06/18/static-sites-with-hugo-at-devobjective/</guid>
+      <description>&lt;p&gt;I recently attended this year&amp;rsquo;s &lt;a href=&#34;http://www.devobjective.com&#34;&gt;dev.Objective()&lt;/a&gt; web conference and was given an opportunity to present &lt;strong&gt;Static Site Generation with HUGO&lt;/strong&gt;. Dev.Objective() always brings in heavy-duty brain power so I was very excited to geek out, get questions and in this case, &lt;strong&gt;challenge comfort zones&lt;/strong&gt;.
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Presentations on Eric Carlisle : UI Developer, UX Designer</title>
+    <link>http://www.ericcarlisle.com/presentations/</link>
+    <description>Recent content in Presentations on Eric Carlisle : UI Developer, UX Designer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>eric@ericcarlisle.com (Eric Carlisle)</managingEditor>
+    <webMaster>eric@ericcarlisle.com (Eric Carlisle)</webMaster>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Wed, 15 Nov 2017 00:09:00 +0000</lastBuildDate>
+    
+        <atom:link href="http://www.ericcarlisle.com/presentations/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>S E Oh Myyy! : Using Structured, Semantic Data for Stellar Content</title>
+      <link>http://www.ericcarlisle.com/presentations/2017/11/15/se-oh-myyy-structured-data-stellar-content/</link>
+      <pubDate>Wed, 15 Nov 2017 00:09:00 +0000</pubDate>
+      <author>eric@ericcarlisle.com (Eric Carlisle)</author>
+      <guid>http://www.ericcarlisle.com/presentations/2017/11/15/se-oh-myyy-structured-data-stellar-content/</guid>
+      <description>Like all things Web, SEO is a wild ride. Ranking criteria changes rapidly as do strategies for optimizing content visibility. As challenging as this is, the goal of both search and content providers is the same: to deliver quality content to Web users. Schema.org is a collaborative effort founded by Google, Microsoft, Yahoo and Yandex. Its purpose is to create, maintain, and promote structured data schemas for embedding a voculary of metadata into Web markup.</description>
+    </item>
+    
+    <item>
+      <title>Flexible, Powerful Static Website Creation with Hugo</title>
+      <link>http://www.ericcarlisle.com/presentations/2016/06/19/static-site-generation-hugo/</link>
+      <pubDate>Sun, 19 Jun 2016 00:06:00 +0000</pubDate>
+      <author>eric@ericcarlisle.com (Eric Carlisle)</author>
+      <guid>http://www.ericcarlisle.com/presentations/2016/06/19/static-site-generation-hugo/</guid>
+      <description>The static website has been reborn! Using a static site generator can simplify website production, optimize performance, and improve security. By streamlining the production process, static site generators can make more time for creating content instead of maintaining the plumbing that delivers it.  Written in Go, the Hugo static site generator (SSG) is very fast and built for performance. What also makes it stand out is an extremely powerful, flexible content model.</description>
+    </item>
+    
+    <item>
+      <title>Ridiculously Easy Layouts with Flexbox</title>
+      <link>http://www.ericcarlisle.com/presentations/2016/03/10/ridiculously-easy-layouts-flexbox/</link>
+      <pubDate>Thu, 10 Mar 2016 00:06:00 +0000</pubDate>
+      <author>eric@ericcarlisle.com (Eric Carlisle)</author>
+      <guid>http://www.ericcarlisle.com/presentations/2016/03/10/ridiculously-easy-layouts-flexbox/</guid>
+      <description>&lt;p&gt;
+    Ready to have your mind blown? Meet Flexbox! The Flexbox (or Flexible Box) Layout Model is a set of CSS attributes that will likely change the way you think about UI layouts. Flexbox uses a dual-axis, container/item layout model allowing for powerful approaches to element space distribution, alignment, and sizing. This can be a tremendous boon for web projects with dynamic data and design flux. It may also tremendously simplify responsive layouts that are dependent on commonly complicated grid models.
+&lt;/p&gt;
+
+&lt;p&gt;
+    This presentation will introduce the mechanics of the Flexible Box Model and demonstrate its capability for simplifying markup and styling. Comparisons will be made to other layout paradigms to illustrate strengths of the model.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Bower Power : Supercharging Front-End Manageability</title>
+      <link>http://www.ericcarlisle.com/presentations/2015/10/27/bower-power-supercharging-front-end-manageability/</link>
+      <pubDate>Tue, 27 Oct 2015 00:06:00 +0000</pubDate>
+      <author>eric@ericcarlisle.com (Eric Carlisle)</author>
+      <guid>http://www.ericcarlisle.com/presentations/2015/10/27/bower-power-supercharging-front-end-manageability/</guid>
+      <description>This session will introduce Bower, a powerful package manager for libraries, frameworks, and all things front-end. We will cover basic Bower usage, integration into Grunt &amp;amp; Gulp build processes, tooling, and registering custom packages to be used by anyone.
+After this session, attendees will be able to:
+ Use Bower to manage libraries, frameworks, and other front-end assets. Integrate Bower into Grunt or Gulp build processes. Optimize Bower power with tooling like the bower-installer.</description>
+    </item>
+    
+    <item>
+      <title>Responsive Design - Planning, Execution, Management with Bootstrap 3</title>
+      <link>http://www.ericcarlisle.com/presentations/2015/03/05/responsive-design-wth-bootstrap-3/</link>
+      <pubDate>Thu, 05 Mar 2015 00:06:00 +0000</pubDate>
+      <author>eric@ericcarlisle.com (Eric Carlisle)</author>
+      <guid>http://www.ericcarlisle.com/presentations/2015/03/05/responsive-design-wth-bootstrap-3/</guid>
+      <description>&lt;p&gt;In only the last few years, Responsive Design patterns and paradigms have brought forth spectacular, sweeping changes in UI web production. The demands for device-compliance as well as the always-growing mobile market have made Responsive Design a necessity for many websites and web applications. While taking the Responsive approach may offer incredible opportunities, it also carries a gamut of challenges.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Dazzling Data Depiction with D3.js</title>
+      <link>http://www.ericcarlisle.com/presentations/2014/11/17/dazzing-data-depiction-with-d3js/</link>
+      <pubDate>Mon, 17 Nov 2014 00:06:00 +0000</pubDate>
+      <author>eric@ericcarlisle.com (Eric Carlisle)</author>
+      <guid>http://www.ericcarlisle.com/presentations/2014/11/17/dazzing-data-depiction-with-d3js/</guid>
+      <description>&lt;p&gt;Creating data visualizations for a web has historically been a daunting task. Due to a lacking standards of browser-supported visualization, often the most approachable solutions would involve proprietary platforms, 3rd-party services, browser plugins, or just static imagery.&lt;/p&gt;
+
+
+&lt;p&gt;The D3.js JavaScript library uses HTML, CSS, and SVG for binding data to web documents. This standards-based approach allows visualizations to be created across browsers without the need for 3rd-party tooling.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>The New UI : Staying Strong with Flexbox, SASS, and Mustache.JS</title>
+      <link>http://www.ericcarlisle.com/presentations/2014/09/13/staying-strong-flexbox-sass-mustachejs/</link>
+      <pubDate>Sat, 13 Sep 2014 00:06:00 +0000</pubDate>
+      <author>eric@ericcarlisle.com (Eric Carlisle)</author>
+      <guid>http://www.ericcarlisle.com/presentations/2014/09/13/staying-strong-flexbox-sass-mustachejs/</guid>
+      <description>&lt;p&gt;
+    The last few years have seen spectacular, sweeping changes in the paradigms of front-end website production. New technology standards, frameworks innovations, design trends, and the always-growing mobile market have totally reshaped approaches to building the presentation layer.
+&lt;/p&gt;
+
+
+&lt;p&gt;
+    This hands-on lab will investigate a powerful medley of front-end production frameworks, standards, and tools.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>The Yin and Yang of Responsive Workflow</title>
+      <link>http://www.ericcarlisle.com/presentations/2013/06/19/yin-yang-responsive-workflow/</link>
+      <pubDate>Wed, 19 Jun 2013 00:06:00 +0000</pubDate>
+      <author>eric@ericcarlisle.com (Eric Carlisle)</author>
+      <guid>http://www.ericcarlisle.com/presentations/2013/06/19/yin-yang-responsive-workflow/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Responsive Design&lt;/strong&gt; has revolutionized the way we create websites, yet there is a strong tendency to still use traditional workflow methodologies. Such workflows can make a project far less efficient while adding a gamut of risks. This session will explore this dilemma, propose alternate workflows for responsive website projects, and offer respective approaches and tooling options for both designers and developers.
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

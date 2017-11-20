@@ -1,0 +1,63 @@
+// ----- Header & Title ----- //
+header.page-header {
+	background: $dark-blue;
+	color: $light-blue;
+	font-family: $header-footer-font-stack;
+	line-height: 1;
+
+	a {
+		color: $light-blue;
+	}
+
+	.header-title {
+		display: flex;
+		align-items: center;
+		font-size: 1.6rem;
+		justify-content: space-between;
+		padding: 0;
+		padding: 2rem 0 2rem 1rem;
+		@include bp(sm) {
+			font-size: 2rem;
+		}
+		@include bp(md) {
+			font-size: 2.4rem;
+			padding: 2rem 0 2rem 2rem;
+		}
+		@include bp(lg) {
+			font-size: 3rem;
+		}
+
+		a:hover {
+			text-decoration: none;
+		}
+
+		h1 {
+			font-size: inherit;
+			margin: 0;
+			padding: 0;
+		}
+	}
+
+	.hamburger-menu {
+		cursor: pointer;
+		float: right;
+		padding-right: 1rem;
+		@include bp(sm) {
+			display: none;
+		}
+	}
+
+	.google-custom-search {
+		display: none;
+		@include bp(md) {
+			display: block;
+			max-width: 28rem;
+		}
+		@include bp(lg) {
+			max-width: 30rem;
+		}
+
+	}
+}
+
+

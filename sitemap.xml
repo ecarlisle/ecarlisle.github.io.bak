@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/presentations/2017/11/15/se-oh-myyy-structured-data-stellar-content/</loc>
+    <lastmod>2017-11-15T00:09:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/contact/</loc>
+    <lastmod>2017-09-25T06:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/about/</loc>
+    <lastmod>2017-09-25T06:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/portfolio/</loc>
+    <lastmod>2017-09-25T06:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/presentations/2016/06/19/static-site-generation-hugo/</loc>
+    <lastmod>2016-06-19T00:06:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/posts/2016/06/18/static-sites-with-hugo-at-devobjective/</loc>
+    <lastmod>2016-06-18T00:06:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/posts/2016/06/06/my-code-indentation-autobiography/</loc>
+    <lastmod>2016-06-06T09:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/posts/2016/05/04/star-wars-day-raspberry-pi/</loc>
+    <lastmod>2016-05-04T09:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/presentations/2016/03/10/ridiculously-easy-layouts-flexbox/</loc>
+    <lastmod>2016-03-10T00:06:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/posts/2015/12/29/maintain-jekyll-performance-package-managers/</loc>
+    <lastmod>2015-12-29T13:21:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/posts/2015/12/17/jekyll-liquid-templates-for-dry-markup/</loc>
+    <lastmod>2015-12-17T00:09:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/presentations/2015/10/27/bower-power-supercharging-front-end-manageability/</loc>
+    <lastmod>2015-10-27T00:06:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/presentations/2015/03/05/responsive-design-wth-bootstrap-3/</loc>
+    <lastmod>2015-03-05T00:06:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/presentations/2014/11/17/dazzing-data-depiction-with-d3js/</loc>
+    <lastmod>2014-11-17T00:06:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/presentations/2014/09/13/staying-strong-flexbox-sass-mustachejs/</loc>
+    <lastmod>2014-09-13T00:06:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/presentations/2013/06/19/yin-yang-responsive-workflow/</loc>
+    <lastmod>2013-06-19T00:06:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/tags/ai/</loc>
+    <lastmod>2017-11-15T00:09:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/blog/</loc>
+    <lastmod>2016-06-18T00:06:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/tags/bootstrap-3/</loc>
+    <lastmod>2015-03-05T00:06:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/tags/bower/</loc>
+    <lastmod>2015-10-27T00:06:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/categories/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/tags/content-delivery/</loc>
+    <lastmod>2017-11-15T00:09:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/tags/d3js/</loc>
+    <lastmod>2014-11-17T00:06:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/tags/data-visualization/</loc>
+    <lastmod>2014-11-17T00:06:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/tags/devobjective/</loc>
+    <lastmod>2016-06-18T00:06:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/tags/eric-carlisle/</loc>
+    <lastmod>2017-09-25T06:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/</loc>
+    <lastmod>2017-11-15T00:09:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/tags/flexbox/</loc>
+    <lastmod>2016-03-10T00:06:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/tags/hugo/</loc>
+    <lastmod>2016-06-19T00:06:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/tags/javascript/</loc>
+    <lastmod>2014-11-17T00:06:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/tags/jekyll/</loc>
+    <lastmod>2015-12-29T13:21:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/tags/mustache.js/</loc>
+    <lastmod>2014-09-13T00:06:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/tags/nanoblocks/</loc>
+    <lastmod>2016-05-04T09:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/tags/optimization/</loc>
+    <lastmod>2015-12-17T00:09:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/tags/package-management/</loc>
+    <lastmod>2015-10-27T00:06:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/tags/package-managers/</loc>
+    <lastmod>2015-12-29T13:21:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/tags/portfolio/</loc>
+    <lastmod>2017-09-25T06:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/presentations/</loc>
+    <lastmod>2017-11-15T00:09:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/tags/programming/</loc>
+    <lastmod>2016-06-06T09:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/tags/raspberry-pi/</loc>
+    <lastmod>2016-05-04T09:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/tags/responsive-design/</loc>
+    <lastmod>2015-03-05T00:06:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/tags/ruby/</loc>
+    <lastmod>2015-12-29T13:21:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/tags/sass/</loc>
+    <lastmod>2014-09-13T00:06:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/tags/seo/</loc>
+    <lastmod>2017-11-15T00:09:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/tags/star-wars/</loc>
+    <lastmod>2016-05-04T09:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/tags/static-site-generation/</loc>
+    <lastmod>2016-06-19T00:06:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/tags/static-sites/</loc>
+    <lastmod>2016-06-18T00:06:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/tags/</loc>
+    <lastmod>2017-11-15T00:09:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/tags/templates/</loc>
+    <lastmod>2015-12-17T00:09:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/tags/ui-layout/</loc>
+    <lastmod>2016-03-10T00:06:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/tags/user-experiense-design/</loc>
+    <lastmod>2017-09-25T06:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/tags/user-interface-development/</loc>
+    <lastmod>2017-09-25T06:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ericcarlisle.com/tags/whitespace/</loc>
+    <lastmod>2016-06-06T09:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
