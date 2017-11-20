@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on Eric Carlisle : UI Developer, UX Designer</title>
+    <link>http://www.ericcarlisle.com/tags/programming/</link>
+    <description>Recent content in Programming on Eric Carlisle : UI Developer, UX Designer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>eric@ericcarlisle.com (Eric Carlisle)</managingEditor>
+    <webMaster>eric@ericcarlisle.com (Eric Carlisle)</webMaster>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Mon, 06 Jun 2016 09:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="http://www.ericcarlisle.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Tale of Two Characters - My Code Indentation Autobiography</title>
+      <link>http://www.ericcarlisle.com/posts/2016/06/06/my-code-indentation-autobiography/</link>
+      <pubDate>Mon, 06 Jun 2016 09:00:00 +0000</pubDate>
+      <author>eric@ericcarlisle.com (Eric Carlisle)</author>
+      <guid>http://www.ericcarlisle.com/posts/2016/06/06/my-code-indentation-autobiography/</guid>
+      <description>&lt;p&gt;The type and number of characters we use for code indention have and probably will always be a source of contention for programmers. Should we use tabs or spaces and how many of either? Some will consider this a tired argument, others find it comical, and some have very strong opinions on what&amp;rsquo;s the right way to indent. These are all fair. What interests me is how different indention stylistics are more than mere preferences or opinions. They can make that person more efficient and less distracted. It&amp;rsquo;s both a quandary of both Computer Science and Human Factors.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

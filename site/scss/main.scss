@@ -1,0 +1,110 @@
+/*!
+Eric Carlisle : UI Developer, UX Designer
+*/
+@import 'config';
+@import 'mixins';
+@import 'layout';
+@import 'header';
+@import 'profile';
+@import 'content';
+@import 'sidebar';
+@import 'components';
+@import 'footer';
+@import 'navigation';
+@import 'overrides';
+
+*, *:after, *:before {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	background: $lightest-gray;
+	color: $dark-gray;
+	font-family: $content-font-stack;
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 3rem;
+	margin: 0 auto;
+	max-width: 200rem;
+	padding: 0;
+}
+
+figure {
+	margin: 0;
+	image {
+		display: inline-block;
+	}
+}
+
+a {
+	color: $med-blue;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1, h2, h3 {
+	font-family: $title-font-stack;
+	font-weight: 400;
+}
+
+h1, h2 {
+	font-size: 1.8rem;
+	line-height: 3rem;
+	margin: 0 0 1.5rem 0;
+	@include bp(sm) {
+		font-size: 2.0rem;
+	}
+	@include bp(md) {
+		font-size: 2.2rem;
+	}
+	@include bp(lg) {
+		font-size: 2.4rem;
+	}
+	@include bp(lg) {
+		font-size: 2.6rem;
+	}
+}
+
+h3 {
+	font-size: 2rem;
+	margin: 0;
+}
+
+.page-container {
+	@include bp(sm) {
+		padding-top: 1rem;
+	}
+	@include bp(md) {
+		padding-top: 2rem;
+	}
+	@include bp(lg) {
+		padding-top: 3rem;
+	}
+}
+
+hr {
+	border: solid 1px #ccc;
+	border-width: 1px 0 0 0;
+	margin: 3rem 0;
+}
+
+div.highlight {
+	font-size: 1.6rem;
+	pre {
+		border-radius: 1rem;
+		border: solid 1.5rem #272822;
+		color: #eee;
+		margin: 0;
+	}
+}
+
+.gist-data {
+	max-height: 45rem;
+}

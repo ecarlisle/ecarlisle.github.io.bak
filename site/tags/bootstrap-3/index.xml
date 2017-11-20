@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bootstrap 3 on Eric Carlisle : UI Developer, UX Designer</title>
+    <link>http://www.ericcarlisle.com/tags/bootstrap-3/</link>
+    <description>Recent content in Bootstrap 3 on Eric Carlisle : UI Developer, UX Designer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>eric@ericcarlisle.com (Eric Carlisle)</managingEditor>
+    <webMaster>eric@ericcarlisle.com (Eric Carlisle)</webMaster>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Thu, 05 Mar 2015 00:06:00 +0000</lastBuildDate>
+    
+        <atom:link href="http://www.ericcarlisle.com/tags/bootstrap-3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Responsive Design - Planning, Execution, Management with Bootstrap 3</title>
+      <link>http://www.ericcarlisle.com/presentations/2015/03/05/responsive-design-wth-bootstrap-3/</link>
+      <pubDate>Thu, 05 Mar 2015 00:06:00 +0000</pubDate>
+      <author>eric@ericcarlisle.com (Eric Carlisle)</author>
+      <guid>http://www.ericcarlisle.com/presentations/2015/03/05/responsive-design-wth-bootstrap-3/</guid>
+      <description>&lt;p&gt;In only the last few years, Responsive Design patterns and paradigms have brought forth spectacular, sweeping changes in UI web production. The demands for device-compliance as well as the always-growing mobile market have made Responsive Design a necessity for many websites and web applications. While taking the Responsive approach may offer incredible opportunities, it also carries a gamut of challenges.
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

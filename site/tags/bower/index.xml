@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bower on Eric Carlisle : UI Developer, UX Designer</title>
+    <link>http://www.ericcarlisle.com/tags/bower/</link>
+    <description>Recent content in Bower on Eric Carlisle : UI Developer, UX Designer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>eric@ericcarlisle.com (Eric Carlisle)</managingEditor>
+    <webMaster>eric@ericcarlisle.com (Eric Carlisle)</webMaster>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Tue, 27 Oct 2015 00:06:00 +0000</lastBuildDate>
+    
+        <atom:link href="http://www.ericcarlisle.com/tags/bower/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bower Power : Supercharging Front-End Manageability</title>
+      <link>http://www.ericcarlisle.com/presentations/2015/10/27/bower-power-supercharging-front-end-manageability/</link>
+      <pubDate>Tue, 27 Oct 2015 00:06:00 +0000</pubDate>
+      <author>eric@ericcarlisle.com (Eric Carlisle)</author>
+      <guid>http://www.ericcarlisle.com/presentations/2015/10/27/bower-power-supercharging-front-end-manageability/</guid>
+      <description>This session will introduce Bower, a powerful package manager for libraries, frameworks, and all things front-end. We will cover basic Bower usage, integration into Grunt &amp;amp; Gulp build processes, tooling, and registering custom packages to be used by anyone.
+After this session, attendees will be able to:
+ Use Bower to manage libraries, frameworks, and other front-end assets. Integrate Bower into Grunt or Gulp build processes. Optimize Bower power with tooling like the bower-installer.</description>
+    </item>
+    
+  </channel>
+</rss>

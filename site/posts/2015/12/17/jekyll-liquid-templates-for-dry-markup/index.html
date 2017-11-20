@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="en-US">
+	
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+<head>
+
+	<!-- DNS Prefetch -->
+	<meta http-equiv="x-dns-prefetch-control" content="on">
+	<link rel="dns-prefetch" href="//fonts.googleapis.com" />
+
+	<!-- Google Tag Manager -->
+	
+
+	<!-- General Metadata -->
+	<title>Optimizing Jekyll Templates with Liquid variables for DRY, Readable Markup | Eric Carlisle : UI Developer, UX Designer</title>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="This article giveas an example of how Liquid may be optimized to keep Jekyll templates DRY and intuitive.">
+	<meta name="keywords" content="">
+	<meta name="robots" content="index, follow">
+	<link rel="canonical" href="http://www.ericcarlisle.com/posts/2015/12/17/jekyll-liquid-templates-for-dry-markup/">
+	<link rel="alternate" type="application/rss+xml" title="Eric Carlisle : UI Developer, UX Designer" href="http://www.ericcarlisle.com//index.xml">
+	
+	<!-- Open Graph Metadata -->
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Optimizing Jekyll Templates with Liquid variables for DRY, Readable Markup">
+	<meta property="og:url" content="http://www.ericcarlisle.com/posts/2015/12/17/jekyll-liquid-templates-for-dry-markup/">
+	<meta property="og:site_name" content="Eric Carlisle : UI Developer, UX Designer" />
+	<meta property="og:image" content="http://www.ericcarlisle.com/img/blog/jekyll-logo.svg">
+	<meta property="og:description" content="This article giveas an example of how Liquid may be optimized to keep Jekyll templates DRY and intuitive.">
+	<meta property="og:type" content="" />
+	<meta property="fb:app_id" content="372474503176455" />
+	<meta property="fb:admins" content="5412120" />
+	
+	<!-- Twitter Metadata -->
+	<meta name="twitter:card" content="">
+	<meta name="twitter:title" content="Optimizing Jekyll Templates with Liquid variables for DRY, Readable Markup | Eric Carlisle : UI Developer, UX Designer">
+	<meta name="twitter:site" content="eric_carlisle">
+	<meta name="twitter:creator" content="eric_carlisle">
+	<meta name="twitter:description" content="This article giveas an example of how Liquid may be optimized to keep Jekyll templates DRY and intuitive.">
+	<meta name="twitter:image" content="http://www.ericcarlisle.com/img/blog/jekyll-logo.svg">
+	<meta name="twitter:url" property="og:url" content="http://www.ericcarlisle.com/posts/2015/12/17/jekyll-liquid-templates-for-dry-markup/">
+	<link rel="me" href="https://twitter.com/eric_carlisle">
+	
+	<!-- Google metadata -->
+	<meta name="google" content="nositelinkssearchbox" />
+	<meta name="google-site-verification" content="79WFC1AAO_g6X17NBDa1J0yiQJlas4v8hS69Ihw8M7Q" />
+
+	<!-- Microsoft metadata -->
+	<meta name="msvalidate.01" content="74F5AA76B53AEFD6E86FE91470A50E0B" />
+
+	<!-- Icons -->
+	<link rel="shortcut icon" href="http://www.ericcarlisle.com//favicon.ico" type="image/x-icon" />
+	<link rel="apple-touch-icon" href="http://www.ericcarlisle.com//apple-touch-icon.png" />
+	<link rel="apple-touch-icon" sizes="57x57" href="http://www.ericcarlisle.com/apple-touch-icon-57x57.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="http://www.ericcarlisle.com/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="76x76" href="http://www.ericcarlisle.com/apple-touch-icon-76x76.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="http://www.ericcarlisle.com/apple-touch-icon-114x114.png" />
+	<link rel="apple-touch-icon" sizes="120x120" href="http://www.ericcarlisle.com/apple-touch-icon-120x120.png" />
+	<link rel="apple-touch-icon" sizes="144x144" href="http://www.ericcarlisle.com/apple-touch-icon-144x144.png" />
+	<link rel="apple-touch-icon" sizes="152x152" href="http://www.ericcarlisle.com/apple-touch-icon-152x152.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="http://www.ericcarlisle.com/apple-touch-icon-180x180.png" />
+	
+	<!-- CSS -->
+	<link type="text/css" rel="stylesheet" href="http://www.ericcarlisle.com/css/main.css?1377152645">
+	<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400|Roboto:400,700|Roboto+Slab|Montserrat:400&1377152645">
+
+	<script type="application/ld+json">
+		{
+			"@context": "http://schema.org",
+			"@type": "WebSite",
+			"url": "https://www.ericcarlisle.com/",
+			"potentialAction": {
+				"@type": "SearchAction",
+				"target": "https://www.ericcarlisle.com/search?q={search_term_string}",
+				"query-input": "required name=search_term_string"
+			}
+		}
+	</script>
+
+</head>
+
+	<body itemscope itemtype="http://schema.org/WebPage">
+		<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '372474503176455',
+      xfbml      : true,
+      version    : 'v2.10'
+    });
+    FB.AppEvents.logPageView();
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+		<header class="page-header" itemscope itemtype="http://schema.org/WPHeader">
+	<div class="header-title">
+		<a href="http://www.ericcarlisle.com/">
+			
+			<span class="name">Eric Carlisle :</span>
+			<span class="job">UI Developer, UX Designer</span>
+			
+		</a>
+		<span class="hamburger-menu">&#9776;</span>
+		<div class="google-custom-search">
+			<script>
+				(function() {
+					var cx = '013258219452007524330:bpqssbemzkk';
+					var gcse = document.createElement('script');
+					gcse.type = 'text/javascript';
+					gcse.async = true;
+					gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+					var s = document.getElementsByTagName('script')[0];
+					s.parentNode.insertBefore(gcse, s);
+				})();
+			</script>
+			<gcse:search></gcse:search>
+		</div>
+
+	</div>
+	<nav class="page-navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+		<ul>
+		
+		
+			<li>
+				<a class="" href="http://www.ericcarlisle.com/">
+					Home
+				</a>
+			</li>
+		
+			<li>
+				<a class="" href="http://www.ericcarlisle.com/about/">
+					About Me
+				</a>
+			</li>
+		
+			<li>
+				<a class="" href="http://www.ericcarlisle.com/blog/">
+					Blog
+				</a>
+			</li>
+		
+			<li>
+				<a class="" href="http://www.ericcarlisle.com/presentations/">
+					Presentations
+				</a>
+			</li>
+		
+			<li>
+				<a class="" href="http://www.ericcarlisle.com/portfolio/">
+					Portfolio
+				</a>
+			</li>
+		
+		</ul>
+	</nav>
+</header>
+
+		<div class="page-container wg">
+			<aside class="page-profile col-md-3-16">
+				<script type="application/ld+json">
+{
+	"@context": "http://schema.org",
+	"@type": "Person",
+	"name": "Eric Carlisle",
+	"givenName": "Eric",
+	"familyName": "Carlisle",
+	"image": "http://www.ericcarlisle.com/img/global/eric-carlisle-800x800.png",
+	"jobTitle": "UI Developer, UX Designer",
+	"url": "http://www.ericcarlisle.com",
+	"sameAs" : [
+		"https://twitter.com/eric_carlisle",
+		"https://www.linkedin.com/in/ericcarlisle",
+		"https://github.com/ecarlisle",
+		"https://www.slideshare.net/ericcarlisle",
+		"https://medium.com/@eric_carlisle"
+	]
+}
+</script>
+<figure>
+	<a href="http://www.ericcarlisle.com/">
+		<img class="headshot" src="http://www.ericcarlisle.com/img/global/eric-carlisle-400x400.png" alt="Eric Carlisle">
+	</a>
+	<figcaption class="name-title">
+		<div>
+			Eric Carlisle
+		</div>
+		<div>
+			<span>UI Developer,</span>
+			<span>UX Designer</span>
+		</div>
+	</figcaption>
+</figure>
+<ul class="social-icons">
+	<li>
+		<a href="https://twitter.com/eric_carlisle" title="Eric's Twitter Profile" target="_blank">
+			<img src="http://www.ericcarlisle.com/img/global/twitter-icon.svg" alt="Twitter Logo" />
+		</a>
+	</li>
+	<li>
+		<a href="https://github.com/ecarlisle" title="Eric's LinkedIn Profile" target="_blank">
+			<img src="http://www.ericcarlisle.com/img/global/github-icon.svg" alt="Slideshare Logo" />
+		</a>
+	</li>
+	<li>
+		<a href="https://www.linkedin.com/in/ericcarlisle" title="Eric's LinkedIn Profile" target="_blank">
+			<img src="http://www.ericcarlisle.com/img/global/linkedin-icon.svg" alt="LinkedIn Logo" />
+		</a>
+	</li>
+	<li>
+		<a href="https://www.slideshare.net/ericcarlisle" title="Eric's LinkedIn Profile" target="_blank">
+			<img src="http://www.ericcarlisle.com/img/global/slideshare-icon.svg" alt="Slideshare Logo" />
+		</a>
+	</li>
+	<li>
+		<a href="https://medium.com/@eric_carlisle" title="Eric's Medium Profile" target="_blank">
+			<img src="http://www.ericcarlisle.com/img/global/medium-icon.svg" alt="Medium Logo" />
+		</a>
+	</li>
+</uli>
+
+			</aside>
+			<main class="page-main col-md-11-16">
+				<article itemscope itemtype="http://schema.org/NewsArticle">
+					<meta itemscope itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage" itemid="http://www.ericcarlisle.com/posts/2015/12/17/jekyll-liquid-templates-for-dry-markup/"/>
+					<header>
+						<h1 itemprop="headline">
+							Optimizing Jekyll Templates with Liquid variables for DRY, Readable Markup
+						</h1>
+							<div class="article-subtitle">
+		<ul class="meta">
+			<li>
+				
+				Blog Post
+				
+			</li>
+			<li>&middot;</li>
+			<li>
+				<time>Thu, Dec 17, 2015</time>
+				  <meta itemprop="datePublished" content="2015-12-17T00:09:00&#43;00:00"/>
+				  <meta itemprop="dateModified" content="2015-12-17T00:09:00&#43;00:00"/>
+			</li>
+			<li>&middot;</li>
+			<li>
+				<span class="iblock" itemprop="author">Eric Carlisle</span>
+				<span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+					<meta name="width" content="" />
+					<meta name="height" content="" />
+					<meta itemprop="url" content="http://www.ericcarlisle.com/" />
+				</span>
+			</li>
+		</ul>
+		
+		<div class="a2a_kit a2a_default_style"><a class="a2a_button_twitter"></a>
+			<a class="a2a_button_linkedin"></a>
+			<a class="a2a_button_facebook"></a>
+			<a class="a2a_button_google_plus"></a>
+			
+			</div>
+		<script async src="https://static.addtoany.com/menu/page.js"></script>
+		
+	</div>
+	<span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+		<meta itemprop="name" content="Eric Carlisle Consulting" />
+		<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+			<meta itemprop="url" content="http://www.ericcarlisle.com/img/eric-carlisle-consulting-logo.png" />
+			<meta itemprop="width" content="600" />
+			<meta itemprop="height" content="60" />
+		</span>
+	</span>
+
+					</header>
+					<div class="bmar1">
+					</div>
+					<div class="blog-post clearfix">
+						
+
+
+
+
+
+
+
+
+	
+
+
+
+
+<figure itemprop="image"
+		itemscope
+		itemtype="http://schema.org/ImageObject"
+		class="article-image">
+		<img src="http://www.ericcarlisle.com/img/blog/jekyll-logo.svg" alt="Jekyll Logo" />
+		<meta itemprop="caption" content="Jekyll Logo">
+		<meta itemprop="url" content="http://www.ericcarlisle.com/img/blog/jekyll-logo.svg">
+		
+		
+	
+</figure>
+
+
+						<p>If you&rsquo;ve yet to check out <a href="https://jekyllrb.com/">Jekyll</a>, I&rsquo;d strongly suggest doing so. It&rsquo;s a very powerful static site generator and a compelling tool for re-discovering strengths of a static website. I use it for <a href="https://github.com/ecarlisle/ecarlisle.github.io">this website</a>. It&rsquo;s a huge time saver for me, allowing me to devote more time to content creation. Its integraton with <a href="https://help.github.com/articles/using-jekyll-with-pages/">Github Pages</a> also makes content publication a snap.</p>
+
+<p>For those already already working with Jekyll, you&rsquo;ve probably been working with the <a href="http://liquidmarkup.org/">Liquid Ruby library</a> for optimizing templates. Liquid is a quick learn and great tool for Jekyll templating. I recently used with Liquid to customize Jekyll&rsquo;s <a href="https://github.com/jekyll/jekyll/blob/master/lib/site_template/_includes/head.html">head.html include</a> to optimize social channel metatags.
+</p>
+
+<p>I created this <a href="https://gist.github.com/ecarlisle/6a92bffc12b1a8b07961">Gist</a> to illustrate my approach.</p>
+
+<script src="//gist.github.com/ecarlisle/6a92bffc12b1a8b07961.js"></script>
+
+<p>To use the Gist as-is, you&rsquo;ll need to add the following mappings to Jekyll&rsquo;s site configuration file, <a href="https://github.com/jekyll/jekyll/blob/master/lib/site_template/_config.yml">_config.yaml</a>.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">facebook_username: <span style="color:#e6db74">&#34;flash.gordon&#34;</span>
+facebook_app_id: <span style="color:#e6db74">&#34;12345&#34;</span>
+facebook_admins_id: <span style="color:#e6db74">&#34;67890&#34;</span></code></pre></div>
+
+<p>Im optimizting this partial, I found that Liquid templating can quickly become verbose and less readable when all logic is placed directly in the markup. To mitigate this issue and make the include DRY, I created a handful of Liquid variables at the top of the include.</p>
+
+<p>The following example shows the Jekyll default means of making a link tag for a canonical URL.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">link</span> <span style="color:#a6e22e">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;alternate&#34;</span>
+      <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;application/rss+xml&#34;</span>
+      <span style="color:#a6e22e">title</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{% raw %}{{ site.title }}{% endraw %}&#34;</span>
+      <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{% raw %}{{ &#34;</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#a6e22e">feed</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">xml</span><span style="color:#960050;background-color:#1e0010">&#34;</span> <span style="color:#960050;background-color:#1e0010">|</span> <span style="color:#a6e22e">prepend:</span> <span style="color:#a6e22e">site</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">baseurl</span> <span style="color:#960050;background-color:#1e0010">|</span> <span style="color:#a6e22e">prepend:</span> <span style="color:#a6e22e">site</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">url</span> <span style="color:#960050;background-color:#1e0010">}}{%</span> <span style="color:#a6e22e">endraw</span> <span style="color:#960050;background-color:#1e0010">%}&#34;</span>&gt;</code></pre></div>
+
+<p>While this approach works, it is optimizable. We can shorten the logic by:</p>
+
+<ol>
+<li>Making a variable for the full URL (site.url + base.url).</li>
+<li>perhaps use the <em>prepend</em> function in variable creation, but not within the markup.</li>
+</ol>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">{% raw %}{% capture full_url %}{{ site.url | prepend: site.baseurl }}{% endcapture %}{% endraw %}
+
+&lt;<span style="color:#f92672">link</span> <span style="color:#a6e22e">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;alternate&#34;</span>
+      <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;application/rss+xml&#34;</span>
+      <span style="color:#a6e22e">title</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{% raw %}{{ site.title }}{% endraw %}&#34;</span>
+      <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{% raw %}{{ full_url }}/feed.xml{% endraw %}&#34;</span>&gt;</code></pre></div>
+
+<p>While the gain in this example may be trivial, Liquid logic can easily add up in other cases. With Jekyll it&rsquo;s not unusual to look for the same content in multiple places and select a certain one. Let&rsquo;s say we need content for page meta description and have decided to take the folowing fallback approach:</p>
+
+<ol>
+<li>Use a description mapping placed in the page&rsquo;s front matter YAML.</li>
+<li>Use a page excerpt, using all page content until a &lt;!&ndash;more&ndash;&gt; comment is found.</li>
+<li>Use the site description mapping as set in the site&rsquo;s _config.yaml file.</li>
+</ol>
+
+<p>If placed within the markup, the logic for the meta tag would probably look somethis like this:</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;description&#34;</span>
+      <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{% raw %}{% if page.description %}
+</span><span style="color:#e6db74">                 {{ page.description | strip | strip_newlines | truncate: 160}}
+</span><span style="color:#e6db74">               {% else if page.excerpt %}
+</span><span style="color:#e6db74">                 {{ page.excerpt | strip | strip_newlines | truncate: 160}}
+</span><span style="color:#e6db74">               {% else %}
+</span><span style="color:#e6db74">                 {{ site.description | strip | strip_newlines | truncate: 160 }}
+</span><span style="color:#e6db74">               {% endif %}{% endraw %}&#34;</span>&gt;</code></pre></div>
+
+<p>That&rsquo;s not something we don&rsquo;t want in the markup. Let&rsquo;s abstract that out!</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">{% raw %}
+{% capture page_description %}
+{% if page.description %}
+    {{ page.description }}
+  {% else if page.excerpt %}
+    {{ page.excerpt}}
+  {% else %}
+    {{ site.description }}
+  {% endif %}
+{% endcapture %}
+{% assign page_description = page_description | strip | strip_newlines | truncate: 160 %}{% endraw %}
+
+&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;description&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{% raw %}{{ page_description }}{% endraw %}&#34;</span>&gt;</code></pre></div>
+
+<p>Now, our markup is much more readable and the variable is page_description is reusable.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;description&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{% raw %}{{ page_description }}{% endraw %}&#34;</span>&gt;
+&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">property</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;og:description&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{% raw %}{{ page_description }}{% endraw %}&#34;</span> /&gt;
+&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;twitter:description&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{% raw %}{{ page_description }}{% endraw %}&#34;</span> /&gt;</code></pre></div>
+
+<p>Also notice that we&rsquo;re using two different Liquid tags for variable assignment. The <code>capture</code> tag allows conditional logic to be used when setting a variable. The <code>assign</code> tag is then used to clean up the variable&rsquo;s initial assignment.</p>
+
+<h4 id="please-note">PLEASE NOTE:</h4>
+
+<p>When using the <code>capture</code> tag to create a Liquid variable, any indention whitespace is placed in that variable. While the <code>strip_newlines</code> function will take out linebreaks, we&rsquo;re left with surrounding whitespace that cannot even be removed by other string functions such as <code>strip</code>, <code>lstrip</code>, and <code>rstrip</code>. When the <code>{% raw %}{{ page_description }}{% endraw %}</code> variable is placed in the markup, we&rsquo;ll see something like this:</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;description&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;   This is my page description   &#34;</span>&gt;</code></pre></div>
+
+<p>This is definitely not acceptable, but we have some options. We could just not use indentation when creating the <code>page_description</code> variable.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">{% raw %}
+{% capture page_description %}{% if page.description %}{{ page.description }}{% else if page.excerpt %}{{ page.excerpt}}{% else %}{{ site.description }}{% endif %}{% endcapture %}{% assign page_description = page_description | strip | strip_newlines | truncate: 160 %}{% endraw %}</code></pre></div>
+
+<p>This prevents the indentation whitespace but is no fun to read.  There&rsquo;s also a Ruby <a href="https://github.com/aucor/jekyll-plugins">plugin</a> that can remove indentation whitespace, but such plugins aren&rsquo;t compatible with Jekyll&rsquo;s integration with Github Pages. I want to maintain readability and integration with Github Pages.</p>
+
+<p>The best solution I&rsquo;ve found thus far is not intuitive but gets the job done. You can use Liquid&rsquo;s array functions to split and rejoin a string using <code>&quot; &quot;</code> as a delimiter. So we&rsquo;ll include this with other string manipulation happening in the <code>assign</code> tag.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">{% raw %}
+{% assign page_description = page_description | strip_newlines | split: &#39; &#39; | join: &#39; &#39; | truncate: 160 %}
+{% endraw %}</code></pre></div>
+
+<p>Now get the set of characters that we&rsquo;re looking for!</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;description&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;This is my page description&#34;</span>&gt;</code></pre></div>
+
+<p>Thank you <a href="http://moritz.sauer.io/">Moritz »mo.« Sauer</a> and <a href="http://huphtur.nl">M. Appelman</a> for feedback to improve this post and respective <a href="https://gist.github.com/ecarlisle/6a92bffc12b1a8b07961">Gist</a>!</p>
+						<div id="disqus_thread"></div>
+<script>
+	var disqus_config = function () {
+		this.page.url = "http://www.ericcarlisle.com/posts/2015/12/17/jekyll-liquid-templates-for-dry-markup/";
+		this.page.identifier = "jekyll-liquid-templates-for-dry-markup";
+	};
+
+	(function() {  
+		var d = document, s = d.createElement('script');
+		s.src = 'https://carlisle.disqus.com/embed.js';
+		s.setAttribute('data-timestamp', +new Date());
+		(d.head || d.body).appendChild(s);
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+					</div>
+				</article>
+			</main>
+			<aside class="page-sidebar col-lg-2-16">
+				
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+	style="display:block"
+	data-ad-client="ca-pub-1380430605264409"
+	data-ad-slot="1628929778"
+	data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+			</aside>
+		</div>
+		<footer class="page-footer wg" itemscope itemtype="http://schema.org/WPFooter">
+	<div class="page-profile col-md-4-16 col-lg-3-16 col-xl-3-16">&nbsp;</div>
+	<div class="page-main col-md-12-16 col-lg-11-16 col-xl-11-16">
+		&copy; Eric Carlisle Consulting, LLC, 2017
+	</div>
+	<div class="col-lg-2-16">&nbsp;</div>
+</footer>
+
+		<script src="http://www.ericcarlisle.com/js/main.js"></script>
+		
+
+		<script id="dsq-count-scr" src="//carlisle.disqus.com/count.js" async></script>
+		
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-34545855-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+  gtag('config', 'UA-34545855-1');
+</script>
+
+	</body>
+</html>
