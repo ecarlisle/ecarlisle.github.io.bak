@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Flexbox on Eric Carlisle : UI Developer, UX Designer</title>
-    <link>http://www.ericcarlisle.com/tags/flexbox/</link>
+    <link>https://www.ericcarlisle.com/tags/flexbox/</link>
     <description>Recent content in Flexbox on Eric Carlisle : UI Developer, UX Designer</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>eric@ericcarlisle.com (Eric Carlisle)</managingEditor>
@@ -10,15 +10,15 @@
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
     <lastBuildDate>Thu, 10 Mar 2016 00:06:00 +0000</lastBuildDate>
     
-        <atom:link href="http://www.ericcarlisle.com/tags/flexbox/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://www.ericcarlisle.com/tags/flexbox/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ridiculously Easy Layouts with Flexbox</title>
-      <link>http://www.ericcarlisle.com/presentations/2016/03/10/ridiculously-easy-layouts-flexbox/</link>
+      <link>https://www.ericcarlisle.com/presentations/2016/03/10/ridiculously-easy-layouts-flexbox/</link>
       <pubDate>Thu, 10 Mar 2016 00:06:00 +0000</pubDate>
       <author>eric@ericcarlisle.com (Eric Carlisle)</author>
-      <guid>http://www.ericcarlisle.com/presentations/2016/03/10/ridiculously-easy-layouts-flexbox/</guid>
+      <guid>https://www.ericcarlisle.com/presentations/2016/03/10/ridiculously-easy-layouts-flexbox/</guid>
       <description>&lt;p&gt;
     Ready to have your mind blown? Meet Flexbox! The Flexbox (or Flexible Box) Layout Model is a set of CSS attributes that will likely change the way you think about UI layouts. Flexbox uses a dual-axis, container/item layout model allowing for powerful approaches to element space distribution, alignment, and sizing. This can be a tremendous boon for web projects with dynamic data and design flux. It may also tremendously simplify responsive layouts that are dependent on commonly complicated grid models.
 &lt;/p&gt;
@@ -30,10 +30,10 @@
     
     <item>
       <title>The New UI : Staying Strong with Flexbox, SASS, and Mustache.JS</title>
-      <link>http://www.ericcarlisle.com/presentations/2014/09/13/staying-strong-flexbox-sass-mustachejs/</link>
+      <link>https://www.ericcarlisle.com/presentations/2014/09/13/staying-strong-flexbox-sass-mustachejs/</link>
       <pubDate>Sat, 13 Sep 2014 00:06:00 +0000</pubDate>
       <author>eric@ericcarlisle.com (Eric Carlisle)</author>
-      <guid>http://www.ericcarlisle.com/presentations/2014/09/13/staying-strong-flexbox-sass-mustachejs/</guid>
+      <guid>https://www.ericcarlisle.com/presentations/2014/09/13/staying-strong-flexbox-sass-mustachejs/</guid>
       <description>&lt;p&gt;
     The last few years have seen spectacular, sweeping changes in the paradigms of front-end website production. New technology standards, frameworks innovations, design trends, and the always-growing mobile market have totally reshaped approaches to building the presentation layer.
 &lt;/p&gt;

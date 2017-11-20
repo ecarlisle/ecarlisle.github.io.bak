@@ -1,0 +1,78 @@
+<FilesMatch ".(ico|pdf|jpg|jpeg|png|gif|svg|css)$">
+	Header set Cache-Control "max-age=31449600, public"
+</FilesMatch>
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^ericcarlisle\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.ericcarlisle\.com$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^portfolio\.html$ "http\:\/\/www\.ericcarlisle\.com\/portfolio" [R=301,L]
+
+
+RewriteOptions inherit
+RewriteCond %{HTTP_HOST} ^ericcarlisle\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.ericcarlisle\.com$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^compsci\/whitespace\/indentation\/2016\/06\/06\/A_Tale_of_Two_Characters_My_Code_Indention_Autobiography\.html$ "http\:\/\/www\.ericcarlisle\.com\/posts\/2016\/06\/06\/my\-code\-indentation\-autobiography\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^ericcarlisle\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.ericcarlisle\.com$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^hugo\/devobjective\/2016\/06\/19\/Considering_Static_Site_Generation_with_Hugo_at_devObjective\.html$ "http\:\/\/www\.ericcarlisle\.com\/posts\/2016\/06\/19\/static\-sites\-with\-hugo\-at\-devobjective\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^ericcarlisle\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.ericcarlisle\.com$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^jekyll\/ruby\/underscore\/2015\/12\/29\/Maintaining_Jekyll_Performance_When_Using_Package_Managers\.html$ "http\:\/\/www\.ericcarlisle\.com\/posts\/2015\/12\/29\/maintain\-jekyll\-performance\-package\-managers\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^ericcarlisle\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.ericcarlisle\.com$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^starwars\/raspberrypi\/maytheforth\/2016\/05\/04\/Celebrating_Star_Wars_Day_with_Raspberry_Pi\.html$ "http\:\/\/www\.ericcarlisle\.com\/posts\/2016\/05\/04\/star\-wars\-day\-raspberry\-pi\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^ericcarlisleconsulting\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.ericcarlisleconsulting\.com$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^/?$ "http\:\/\/www\.ericcarlisle\.com\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^ericcarlisle.com$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^/?$ "http\:\/\/www\.ericcarlisle\.com\/" [R=301,L]
+
+# Use PHP5.4 as default
+# Changed PHP handler from application/x-httpd-php54 to application/x-httpd-phpbeta on Mon Jan 11 10:58:51 MST 2016.
+AddHandler application/x-httpd-phpbeta .php
+<IfModule mod_rewrite.c>
+RewriteBase /
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^assets/css/(.*) wp-content/themes/roots-master/assets/css/$1 [QSA,L]
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^assets/js/(.*) wp-content/themes/roots-master/assets/js/$1 [QSA,L]
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^assets/img/(.*) wp-content/themes/roots-master/assets/img/$1 [QSA,L]
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^plugins/(.*) wp-content/plugins/$1 [QSA,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule . /index.php [L]
+</IfModule>
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^jekyll\/liquid\/ruby\/2015\/12\/17\/Optimizing_Jekyll_Templates_with_Liquid_Variables\.html$ "http\:\/\/www\.ericcarlisle\.com\/posts\/2015\/12\/17\/jekyll\-liquid\-templates\-for\-dry\-markup\/" [R=301,L]

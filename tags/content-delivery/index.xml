@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Content Delivery on Eric Carlisle : UI Developer, UX Designer</title>
-    <link>http://www.ericcarlisle.com/tags/content-delivery/</link>
+    <link>https://www.ericcarlisle.com/tags/content-delivery/</link>
     <description>Recent content in Content Delivery on Eric Carlisle : UI Developer, UX Designer</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>eric@ericcarlisle.com (Eric Carlisle)</managingEditor>
@@ -10,15 +10,15 @@
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
     <lastBuildDate>Wed, 15 Nov 2017 00:09:00 +0000</lastBuildDate>
     
-        <atom:link href="http://www.ericcarlisle.com/tags/content-delivery/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://www.ericcarlisle.com/tags/content-delivery/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>S E Oh Myyy! : Using Structured, Semantic Data for Stellar Content</title>
-      <link>http://www.ericcarlisle.com/presentations/2017/11/15/se-oh-myyy-structured-data-stellar-content/</link>
+      <link>https://www.ericcarlisle.com/presentations/2017/11/15/se-oh-myyy-structured-data-stellar-content/</link>
       <pubDate>Wed, 15 Nov 2017 00:09:00 +0000</pubDate>
       <author>eric@ericcarlisle.com (Eric Carlisle)</author>
-      <guid>http://www.ericcarlisle.com/presentations/2017/11/15/se-oh-myyy-structured-data-stellar-content/</guid>
+      <guid>https://www.ericcarlisle.com/presentations/2017/11/15/se-oh-myyy-structured-data-stellar-content/</guid>
       <description>Like all things Web, SEO is a wild ride. Ranking criteria changes rapidly as do strategies for optimizing content visibility. As challenging as this is, the goal of both search and content providers is the same: to deliver quality content to Web users. Schema.org is a collaborative effort founded by Google, Microsoft, Yahoo and Yandex. Its purpose is to create, maintain, and promote structured data schemas for embedding a voculary of metadata into Web markup.</description>
     </item>
     

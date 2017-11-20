@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Portfolio on Eric Carlisle : UI Developer, UX Designer</title>
-    <link>http://www.ericcarlisle.com/tags/portfolio/</link>
+    <link>https://www.ericcarlisle.com/tags/portfolio/</link>
     <description>Recent content in Portfolio on Eric Carlisle : UI Developer, UX Designer</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>eric@ericcarlisle.com (Eric Carlisle)</managingEditor>
@@ -10,15 +10,15 @@
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
     <lastBuildDate>Mon, 25 Sep 2017 06:00:00 +0000</lastBuildDate>
     
-        <atom:link href="http://www.ericcarlisle.com/tags/portfolio/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://www.ericcarlisle.com/tags/portfolio/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Portfolio - Eric Carlisle : UI Developer, UX Designer</title>
-      <link>http://www.ericcarlisle.com/portfolio/</link>
+      <link>https://www.ericcarlisle.com/portfolio/</link>
       <pubDate>Mon, 25 Sep 2017 06:00:00 +0000</pubDate>
       <author>eric@ericcarlisle.com (Eric Carlisle)</author>
-      <guid>http://www.ericcarlisle.com/portfolio/</guid>
+      <guid>https://www.ericcarlisle.com/portfolio/</guid>
       <description>Portfolio  Listed below are professional engagements I&#39;ve participated in during the last few years. I&#39;ve spent much of my career as a consultant and in doing so have had the opportunity to work within a variety of verticals.       LookingGlass Cyber Solutions Engagement: Full-Time, 3/2014 - 3/2015    Lookingglass Cyber Solutions transforms cyber-threat intelligence into threat knowledge using the ScoutPlatformTM platform of products, including ScoutVisionTM, CloudScoutTM, and ScoutInterxectTM.</description>
     </item>
     

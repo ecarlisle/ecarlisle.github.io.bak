@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Responsive Design on Eric Carlisle : UI Developer, UX Designer</title>
-    <link>http://www.ericcarlisle.com/tags/responsive-design/</link>
+    <link>https://www.ericcarlisle.com/tags/responsive-design/</link>
     <description>Recent content in Responsive Design on Eric Carlisle : UI Developer, UX Designer</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>eric@ericcarlisle.com (Eric Carlisle)</managingEditor>
@@ -10,25 +10,25 @@
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
     <lastBuildDate>Thu, 05 Mar 2015 00:06:00 +0000</lastBuildDate>
     
-        <atom:link href="http://www.ericcarlisle.com/tags/responsive-design/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://www.ericcarlisle.com/tags/responsive-design/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Responsive Design - Planning, Execution, Management with Bootstrap 3</title>
-      <link>http://www.ericcarlisle.com/presentations/2015/03/05/responsive-design-wth-bootstrap-3/</link>
+      <link>https://www.ericcarlisle.com/presentations/2015/03/05/responsive-design-wth-bootstrap-3/</link>
       <pubDate>Thu, 05 Mar 2015 00:06:00 +0000</pubDate>
       <author>eric@ericcarlisle.com (Eric Carlisle)</author>
-      <guid>http://www.ericcarlisle.com/presentations/2015/03/05/responsive-design-wth-bootstrap-3/</guid>
+      <guid>https://www.ericcarlisle.com/presentations/2015/03/05/responsive-design-wth-bootstrap-3/</guid>
       <description>&lt;p&gt;In only the last few years, Responsive Design patterns and paradigms have brought forth spectacular, sweeping changes in UI web production. The demands for device-compliance as well as the always-growing mobile market have made Responsive Design a necessity for many websites and web applications. While taking the Responsive approach may offer incredible opportunities, it also carries a gamut of challenges.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>The Yin and Yang of Responsive Workflow</title>
-      <link>http://www.ericcarlisle.com/presentations/2013/06/19/yin-yang-responsive-workflow/</link>
+      <link>https://www.ericcarlisle.com/presentations/2013/06/19/yin-yang-responsive-workflow/</link>
       <pubDate>Wed, 19 Jun 2013 00:06:00 +0000</pubDate>
       <author>eric@ericcarlisle.com (Eric Carlisle)</author>
-      <guid>http://www.ericcarlisle.com/presentations/2013/06/19/yin-yang-responsive-workflow/</guid>
+      <guid>https://www.ericcarlisle.com/presentations/2013/06/19/yin-yang-responsive-workflow/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Responsive Design&lt;/strong&gt; has revolutionized the way we create websites, yet there is a strong tendency to still use traditional workflow methodologies. Such workflows can make a project far less efficient while adding a gamut of risks. This session will explore this dilemma, propose alternate workflows for responsive website projects, and offer respective approaches and tooling options for both designers and developers.
 &lt;/p&gt;</description>
     </item>

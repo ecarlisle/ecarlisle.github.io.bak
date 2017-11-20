@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data Visualization on Eric Carlisle : UI Developer, UX Designer</title>
-    <link>http://www.ericcarlisle.com/tags/data-visualization/</link>
+    <link>https://www.ericcarlisle.com/tags/data-visualization/</link>
     <description>Recent content in Data Visualization on Eric Carlisle : UI Developer, UX Designer</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>eric@ericcarlisle.com (Eric Carlisle)</managingEditor>
@@ -10,15 +10,15 @@
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
     <lastBuildDate>Mon, 17 Nov 2014 00:06:00 +0000</lastBuildDate>
     
-        <atom:link href="http://www.ericcarlisle.com/tags/data-visualization/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://www.ericcarlisle.com/tags/data-visualization/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Dazzling Data Depiction with D3.js</title>
-      <link>http://www.ericcarlisle.com/presentations/2014/11/17/dazzing-data-depiction-with-d3js/</link>
+      <link>https://www.ericcarlisle.com/presentations/2014/11/17/dazzing-data-depiction-with-d3js/</link>
       <pubDate>Mon, 17 Nov 2014 00:06:00 +0000</pubDate>
       <author>eric@ericcarlisle.com (Eric Carlisle)</author>
-      <guid>http://www.ericcarlisle.com/presentations/2014/11/17/dazzing-data-depiction-with-d3js/</guid>
+      <guid>https://www.ericcarlisle.com/presentations/2014/11/17/dazzing-data-depiction-with-d3js/</guid>
       <description>&lt;p&gt;Creating data visualizations for a web has historically been a daunting task. Due to a lacking standards of browser-supported visualization, often the most approachable solutions would involve proprietary platforms, 3rd-party services, browser plugins, or just static imagery.&lt;/p&gt;
 
 
